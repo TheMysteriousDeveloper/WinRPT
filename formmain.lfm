@@ -1,0 +1,69 @@
+object frmMain: TfrmMain
+  Left = 409
+  Height = 355
+  Top = 202
+  Width = 636
+  BorderStyle = bsSingle
+  Caption = 'WinRPT'
+  ClientHeight = 355
+  ClientWidth = 636
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '2.2.6.0'
+  object Report: TMemo
+    Left = 8
+    Height = 306
+    Top = 8
+    Width = 616
+    Font.CharSet = ANSI_CHARSET
+    Font.Name = 'Lucida Console'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+  end
+  object btnGenerate: TButton
+    Left = 8
+    Height = 25
+    Top = 320
+    Width = 75
+    Caption = '&Generate'
+    OnClick = btnGenerateClick
+    TabOrder = 1
+  end
+  object btnSave: TButton
+    Left = 96
+    Height = 25
+    Top = 320
+    Width = 75
+    Caption = '&Save...'
+    OnClick = btnSaveClick
+    TabOrder = 2
+  end
+  object btnClose: TButton
+    Left = 548
+    Height = 25
+    Top = 320
+    Width = 75
+    Caption = '&Close'
+    OnClick = btnCloseClick
+    TabOrder = 3
+  end
+  object btnHelp: TButton
+    Left = 464
+    Height = 25
+    Top = 320
+    Width = 75
+    Caption = '&Help'
+    OnClick = btnHelpClick
+    TabOrder = 4
+  end
+  object SaveDialog1: TSaveDialog
+    DefaultExt = '.txt'
+    Filter = 'Text files (*.txt)|*.txt|All files (*.*)|*.*'
+    Left = 139
+    Top = 264
+  end
+end

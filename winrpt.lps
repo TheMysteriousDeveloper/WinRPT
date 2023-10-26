@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="winrpt.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="5"/>
+        <CursorPos X="24" Y="13"/>
+        <UsageCount Value="27"/>
+      </Unit>
+      <Unit>
+        <Filename Value="formmain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="96"/>
+        <CursorPos X="37" Y="106"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="sysinfo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SysInfo"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="256"/>
+        <CursorPos X="24" Y="147"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="registryvalue.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="RegistryValue"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="29" Y="12"/>
+        <UsageCount Value="21"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="4">
+      <Position>
+        <Filename Value="sysinfo.pas"/>
+        <Caret Line="269" Column="27" TopLine="261"/>
+      </Position>
+      <Position>
+        <Filename Value="sysinfo.pas"/>
+        <Caret Line="164" Column="43" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="formmain.pas"/>
+        <Caret Line="55" Column="41" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="formmain.pas"/>
+        <Caret Line="63" Column="55" TopLine="50"/>
+      </Position>
+      <Position>
+        <Filename Value="sysinfo.pas"/>
+        <Caret Line="260" Column="31" TopLine="251"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
